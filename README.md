@@ -54,6 +54,7 @@ if we further train on more epochs, then the  model performs well on unseen logo
    cd End-to-End-Logo-Recognition-System
 
 ##  Running on
+Launching the Gradio application. Check the URL for access.
  public URL: https://acc24cfe2072740cc0.gradio.live
 
 ### ✅ Requirements
