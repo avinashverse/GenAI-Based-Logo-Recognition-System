@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is a complete pipeline for detecting brand logos from images using a state-of-the-art object detection model. The goal is to create a **universal logo detector** capable of generalizing to logos even outside its training set. We used the **FlickrLogos-27** dataset and **YOLOv8** to build this system.
+This project is a complete pipeline for detecting brand logos from images using a state-of-the-art object detection model. The goal is to create a ** Logo-Recognition-System ** capable of generalizing to logos even outside its training set. We used the **FlickrLogos-27** dataset and **YOLOv8** to build this system.
 
 This repository contains:
 - Model Training Code, Pretrained Weights, Inference Pipeline
