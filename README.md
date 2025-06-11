@@ -40,7 +40,8 @@ The model performs well on unseen logos and cluttered scenes.
 
 ---
 
-## 🧑‍💻 Running Locally
+##  Running on
+ public URL: https://acc24cfe2072740cc0.gradio.live
 
 ### ✅ Requirements
 
