@@ -38,6 +38,10 @@ We trained YOLOv8 using transfer learning:
 
 The model performs well on unseen logos and cluttered scenes.
 
+## Challenges & Learnings
+ Getting good generalization with limited logo classes, GPT-4o can identify unseen logos a big advantage in real-world applications,
+ Future work: add OpenLogos, contrastive learning, vector DB for similarity search.
+
 ##  Installation & Setup
 
 1. **Clone the repository**
