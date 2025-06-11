@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is a complete pipeline for detecting brand logos from images using a state-of-the-art object detection model. The goal is to create a **Logo-Recognition-System** capable of generalizing to logos even outside its training set. We used the **FlickrLogos-27** dataset and **YOLOv8** to build this system.
+This project is a complete pipeline for detecting brand logos from images using a state-of-the-art object detection model. This project develops an **AI-powered Logo-Recognition-System** designed to automatically detect and identify brand logos in images through a user-friendly Gradio interface. The core detector utilizes YOLOv8, chosen for its excellent real-time object detection performance and ease of integration, and is trained on the FlickrLogos-27 dataset, which provides a diverse and well-annotated collection of 27 real-world logo classes, making it ideal for developing a generalized logo detector. For semantic identification of detected logos, OpenAI GPT-4o is integrated, leveraging its powerful zero-shot image-text reasoning capabilities to understand cropped logo detections.
 
 This repository contains:
 - Model Training Code, Pretrained Weights, Inference Pipeline
