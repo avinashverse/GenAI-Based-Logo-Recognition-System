@@ -1,0 +1,23 @@
+pip install -r requirements.txt
+
+#  Core dependencies 
+ultralytics==8.1.32         # YOLOv8 object detection framework
+torch>=1.13                 # PyTorch backend 
+numpy
+opencv-python
+Pillow
+
+# Web Interface 
+gradio==4.28.3              # User interface for demo
+
+# OpenAI GPT-4o Integration 
+openai==1.30.3              # For GPT-4o API usage
+requests                    # For making HTTP API calls
+
+#  Utility Libraries 
+matplotlib
+tqdm
+python-dotenv               # Optional: for loading API keys from .env file
+
+#  Notebook Support 
+jupyter                     # For development and training notebooks
