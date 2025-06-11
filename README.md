@@ -40,7 +40,7 @@ We trained YOLOv8 using transfer learning:
   <img src="assets/image1.jpeg" width="700"/>
 </p>
 
-The model performs well on unseen logos and cluttered scenes.
+if we further train on more epochs, then the  model performs well on unseen logos and cluttered scenes.
 
 ## Challenges & Learnings
  Getting good generalization with limited logo classes, GPT-4o can identify unseen logos a big advantage in real-world applications,
