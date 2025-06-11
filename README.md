@@ -38,7 +38,12 @@ We trained YOLOv8 using transfer learning:
 
 The model performs well on unseen logos and cluttered scenes.
 
----
+##  Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/avinashverse/End-to-End-Logo-Recognition-System.git
+   cd End-to-End-Logo-Recognition-System
 
 ##  Running on
  public URL: https://acc24cfe2072740cc0.gradio.live
