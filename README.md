@@ -16,8 +16,12 @@ This project is a complete pipeline for detecting brand logos from images using 
 - Well-suited for transfer learning in detection models.
 
 The flickr logos 27 dataset contains 27 classes of brand logo images downloaded from Flickr. The brands included in the dataset are: Adidas, Apple, BMW, Citroen, Coca Cola, DHL, Fedex, Ferrari, Ford, Google, Heineken, HP, McDonalds, Mini, Nbc, Nike, Pepsi, Porsche, Puma, Red Bull, Sprite, Starbucks, Intel, Texaco, Unisef, Vodafone and Yahoo.
+Preprocess
 
-### ⚙️ Model: YOLOv8
+The flickr logos 27 dataset contains an annotation file for training. This file includes not valid annotations such as an empty size bounding box. Therefore these annotations are removed in this preprocess step, then class names are converted into class numbers and generate two preprocessed files. These two files are used to generate tfrecord files.
+
+
+###  Model: YOLOv8
 - Chosen for its balance between **speed** and **accuracy**.
 - Supports export to ONNX/TFLite for real-time applications.
 - Easy integration with Ultralytics’ training API.
