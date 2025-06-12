@@ -36,8 +36,11 @@ We trained YOLOv8 using transfer learning:
 - **Batch Size**: 16
 - **Optimizer**: SGD
 - **Validation mAP**: ~0.72 on held-out validation set
+    <p align="center">
+  <img src="assets/image3.png" width="700"/>
+</p>
   <p align="center">
-  <img src="assets/image1.jpeg" width="700"/>
+  <img src="assets/image2.png" width="700"/>
 </p>
 
 if we further train on more epochs, then the  model performs well on unseen logos and cluttered scenes.
