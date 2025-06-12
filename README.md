@@ -58,7 +58,7 @@ if we further train on more epochs, then the  model performs well on unseen logo
 
 ##  Running on
 Launching the Gradio application. Check the URL for access.
- public URL: https://acc24cfe2072740cc0.gradio.live
+ public URL: [https://acc24cfe2072740cc0.gradio.live](https://f5e26d54ed93934411.gradio.live)
 
 ### ✅ Requirements
 
